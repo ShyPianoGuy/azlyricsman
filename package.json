@@ -1,0 +1,21 @@
+
+{
+  "name": "azlyricsman",
+  "version": "0.1.0",
+  "description": "Gets the lyrics, title, and author off of what song you provide.",
+  "keywords": [
+    "lyrics",
+    "azlyrics"
+  ],
+  "main": "index.js",
+  "author": "DevinThePancake",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevinThePancake/azlyricsman.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.83.0"
+  }
+}
