@@ -1,7 +1,7 @@
 
 {
   "name": "azlyricsman",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Gets the lyrics, title, and author off of what song you provide.",
   "keywords": [
     "lyrics",
