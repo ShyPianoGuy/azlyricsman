@@ -18,9 +18,9 @@ module.exports = async function(query) {
 		let song = o("div.col-xs-12.col-lg-8.text-center").find("div").eq(3).text().replace("lyrics", "").replace('"', "").replace('"', "");
 		let lyrics = o("div.col-xs-12.col-lg-8.text-center").find("div").eq(6).text();
 		let info = {
-			lyrics: lyrics,
-			artist: artist,
-			title: song
+			"lyrics": lyrics,
+			"artist": artist,
+			"title": song
 		};
 		resolve(info);
 	});
